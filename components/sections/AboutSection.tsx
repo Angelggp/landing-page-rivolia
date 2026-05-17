@@ -27,7 +27,7 @@ export function AboutSection() {
         >
           <div className="flex items-center justify-center gap-4 mb-6">
             <span className="hidden md:block flex-1 h-px bg-rivolia-primary opacity-40" />
-            <h2 className="font-cinzel font-bold text-3xl md:text-4xl text-rivolia-primary">
+            <h2 className="font-cinzel font-bold text-xl sm:text-2xl md:text-4xl text-rivolia-primary text-center leading-tight">
               ¿QUÉ ES RIVOLIA?
             </h2>
             <span className="hidden md:block flex-1 h-px bg-rivolia-primary opacity-40" />
@@ -38,7 +38,7 @@ export function AboutSection() {
             Diferentes formatos para cada momento.
           </p>
 
-          <h3 className="font-cinzel font-bold text-2xl md:text-3xl text-rivolia-primary mb-6">
+          <h3 className="font-cinzel font-bold text-xl sm:text-2xl text-rivolia-primary mb-6">
             BENEFICIOS
           </h3>
           <ul className="flex flex-col gap-3">

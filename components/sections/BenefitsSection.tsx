@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export function BenefitsSection() {
   return (
-    <section className="py-20 md:py-32 bg-rivolia-beige overflow-hidden">
+    <section className="py-20 md:py-18 bg-rivolia-beige overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
 
         {/* Texto */}
@@ -16,13 +16,13 @@ export function BenefitsSection() {
           transition={{ duration: 0.8 }}
           className="flex flex-col gap-3"
         >
-          <p className="font-cinzel font-normal text-2xl md:text-3xl text-rivolia-secondary">
+          <p className="font-cinzel font-bold text-xl sm:text-2xl md:text-4xl text-rivolia-secondary leading-tight">
             NO ES CAFÉ RÁPIDO.
           </p>
-          <h2 className="font-cinzel font-bold text-4xl md:text-5xl lg:text-6xl text-rivolia-secondary leading-tight">
+          <h2 className="font-cinzel font-bold text-xl sm:text-2xl md:text-4xl text-rivolia-secondary leading-tight">
             ES CAFÉ BIEN HECHO, RÁPIDO.
           </h2>
-          <p className="font-montserrat font-light text-lg text-rivolia-secondary-dark mt-4 max-w-md">
+          <p className="font-cinzel font-light text-xl text-rivolia-secondary-dark mt-4 max-w-md">
             Como el café que tomarías en casa pero en cualquier lugar
           </p>
         </motion.div>

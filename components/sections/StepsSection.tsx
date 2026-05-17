@@ -17,12 +17,12 @@ export function StepsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-10 md:mb-12"
         >
-          <div className="flex items-center justify-center gap-3 md:gap-4 mb-2">
-            <span className="w-10 md:flex-1 h-px bg-white/40" />
-            <h2 className="font-cinzel font-bold text-3xl md:text-4xl text-white whitespace-nowrap">
+          <div className="flex items-center justify-center gap-2 md:gap-4 mb-2">
+            <span className="w-6 md:flex-1 h-px bg-white/40" />
+            <h2 className="font-cinzel font-bold text-xl sm:text-2xl md:text-4xl text-white text-center leading-tight">
               MÁS FÁCIL QUE PREPARAR TÉ
             </h2>
-            <span className="w-10 md:flex-1 h-px bg-white/40" />
+            <span className="w-6 md:flex-1 h-px bg-white/40" />
           </div>
           <p className="font-montserrat font-light text-base md:text-lg text-rivolia-beige">
             Café filtrado. Fresco y listo.
